@@ -36,9 +36,10 @@ The goals / steps of this project are the following:
 #### 1. The project submission includes all required files.
 
 Writeup Markup file that you are reading it!
-[Jupyter Notebook Code]()
 
-[HTML of Jupyter Notebook]()
+[Jupyter Notebook Code](https://github.com/marlosdamasceno/German-Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.ipynb)
+
+[HTML of Jupyter Notebook](https://github.com/marlosdamasceno/German-Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.html)
 
 ### Dataset Exploration
 #### 1. The submission includes a basic summary of the data set.
@@ -109,14 +110,15 @@ My final model consisted of the following layers:
 To train the model, I used an LeNet architecture adding two dropouts.
 The optimizer it was the Adam Optimizer, because it is enough for this case. The batch size was 512 to speed up training. Epochs was 15, enough to a high accuracy without taking to long to train.
 For the learning rate I use 0.001, for the dropout 0.5 of the probability to keep the neurons. Moreover, to initialize the weights I use 0 for the mean and 0.1 for the standard deviation.
+
 In resume:
-Architecture: LeNet
-Batch size: 512
-Epochs: 15
-Learning rate: 0.001
-Dropout: 0.5
-Mu: 0
-Sigma: 0.1
+* Architecture: LeNet
+* Batch size: 512
+* Epochs: 15
+* Learning rate: 0.001
+* Dropout: 0.5
+* Mu: 0
+* Sigma: 0.1
 
 #### 4. The submission describes the approach to finding a solution. Accuracy on the validation set is 0.93 or greater.
 
