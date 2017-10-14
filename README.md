@@ -1,7 +1,7 @@
 ## Project: Build a Traffic Sign Recognition Program
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-#**Marlos Damasceno** 
+# **Marlos Damasceno** 
 ---
 
 **Build a Traffic Sign Recognition Project**
@@ -23,28 +23,29 @@ The goals / steps of this project are the following:
 [image4]: ./Output/test_histogram.png "Testing labels histogram"
 [image5]: ./Output/pre_process.png "Before/After gray scale"
 
-[image1]: ./ImagesWeb/GoogleStreetViewImages/streetview01.png "Image Google Street View 1"
-[image2]: ./ImagesWeb/GoogleStreetViewImages/streetview02.png "Image Google Street View 2"
-[image3]: ./ImagesWeb/GoogleStreetViewImages/streetview03.png "Image Google Street View 3"
-[image4]: ./ImagesWeb/GoogleStreetViewImages/streetview04.png "Image Google Street View 4"
-[image5]: ./ImagesWeb/GoogleStreetViewImages/streetview05.png "Image Google Street View 5"
+[image6]: ./ImagesWeb/GoogleStreetViewImages/streetview01.png "Image Google Street View 1"
+[image7]: ./ImagesWeb/GoogleStreetViewImages/streetview02.png "Image Google Street View 2"
+[image8]: ./ImagesWeb/GoogleStreetViewImages/streetview03.png "Image Google Street View 3"
+[image9]: ./ImagesWeb/GoogleStreetViewImages/streetview04.png "Image Google Street View 4"
+[image10]: ./ImagesWeb/GoogleStreetViewImages/streetview05.png "Image Google Street View 5"
 
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
 
-###Files Submitted
+### Files Submitted
 
-####1. The project submission includes all required files.
+#### 1. The project submission includes all required files.
 
 Writeup Markup file that you are reading it!
 [Jupyter Notebook Code]()
+
 [HTML of Jupyter Notebook]()
 
-###Dataset Exploration
-####1. The submission includes a basic summary of the data set.
+### Dataset Exploration
+#### 1. The submission includes a basic summary of the data set.
 
 I used the matplotlib.pyplot library to plot each first image of each label of training set. Moreover, I ploted the histogram for each data set, training, validating and testing.
 To get some basic information as below I worked with len() and numpy.
@@ -55,7 +56,7 @@ To get some basic information as below I worked with len() and numpy.
 * The shape of a traffic sign image is (32, 32)
 * The number of unique classes/labels in the data set is 43
 
-####2. The submission includes an exploratory visualization on the dataset.
+#### 2. The submission includes an exploratory visualization on the dataset.
 
 As stated above, here is all possible labels (43) that is on the training set.
 ![alt text][image1]
@@ -65,9 +66,9 @@ Moreover, some stats with histogram.
 ![alt text][image4]
 
 
-###Design and Test a Model Architecture
+### Design and Test a Model Architecture
 
-####1. The submission describes the preprocessing techniques used and why these techniques were chosen.
+#### 1. The submission describes the preprocessing techniques used and why these techniques were chosen.
 
 As a first step, I decided to convert the images to grayscale because removes the effect of britghnes other factors that a colour image have.
 
@@ -78,7 +79,7 @@ Image before and after grayscaling.
 Moreover, I normalized the image data to have mean around zero.
 
 
-####2. The submission provides details of the characteristics and qualities of the architecture, including the type of model used, the number of layers, and the size of each layer. Visualizations emphasizing particular qualities of the architecture are encouraged.
+#### 2. The submission provides details of the characteristics and qualities of the architecture, including the type of model used, the number of layers, and the size of each layer. Visualizations emphasizing particular qualities of the architecture are encouraged.
 
 My final model consisted of the following layers:
 
